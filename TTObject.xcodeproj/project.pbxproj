@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		E058CCC21E60002C006F0E71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E058CCC11E60002C006F0E71 /* main.m */; };
 		E058CCC51E60002C006F0E71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E058CCC41E60002C006F0E71 /* AppDelegate.m */; };
-		E058CCC81E60002C006F0E71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E058CCC71E60002C006F0E71 /* ViewController.m */; };
 		E058CCCB1E60002C006F0E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E058CCC91E60002C006F0E71 /* Main.storyboard */; };
 		E058CCCD1E60002C006F0E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E058CCCC1E60002C006F0E71 /* Assets.xcassets */; };
 		E058CCD01E60002C006F0E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E058CCCE1E60002C006F0E71 /* LaunchScreen.storyboard */; };
+		E058CCDA1E60006B006F0E71 /* TTObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E058CCD91E60006B006F0E71 /* TTObject.m */; };
+		E058CCDE1E600245006F0E71 /* TTRootTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = E058CCDD1E600245006F0E71 /* TTRootTableController.m */; };
+		E058CCE11E600393006F0E71 /* TTStudentController.m in Sources */ = {isa = PBXBuildFile; fileRef = E058CCE01E600393006F0E71 /* TTStudentController.m */; };
+		E058CCE51E6003FD006F0E71 /* TTDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E058CCE41E6003FD006F0E71 /* TTDataSource.m */; };
+		E058CCE81E600414006F0E71 /* TTStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = E058CCE71E600414006F0E71 /* TTStudent.m */; };
+		E058CCEB1E60056B006F0E71 /* TTStudents.m in Sources */ = {isa = PBXBuildFile; fileRef = E058CCEA1E60056B006F0E71 /* TTStudents.m */; };
+		E058CCFC1E6011A1006F0E71 /* TTStudentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E058CCFB1E6011A1006F0E71 /* TTStudentCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,24 @@
 		E058CCC11E60002C006F0E71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E058CCC31E60002C006F0E71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E058CCC41E60002C006F0E71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E058CCC61E60002C006F0E71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E058CCC71E60002C006F0E71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E058CCCA1E60002C006F0E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E058CCCC1E60002C006F0E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E058CCCF1E60002C006F0E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E058CCD11E60002C006F0E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E058CCD81E60006B006F0E71 /* TTObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTObject.h; sourceTree = "<group>"; };
+		E058CCD91E60006B006F0E71 /* TTObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTObject.m; sourceTree = "<group>"; };
+		E058CCDC1E600245006F0E71 /* TTRootTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRootTableController.h; sourceTree = "<group>"; };
+		E058CCDD1E600245006F0E71 /* TTRootTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRootTableController.m; sourceTree = "<group>"; };
+		E058CCDF1E600393006F0E71 /* TTStudentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTStudentController.h; sourceTree = "<group>"; };
+		E058CCE01E600393006F0E71 /* TTStudentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTStudentController.m; sourceTree = "<group>"; };
+		E058CCE31E6003FD006F0E71 /* TTDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDataSource.h; sourceTree = "<group>"; };
+		E058CCE41E6003FD006F0E71 /* TTDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDataSource.m; sourceTree = "<group>"; };
+		E058CCE61E600413006F0E71 /* TTStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTStudent.h; sourceTree = "<group>"; };
+		E058CCE71E600414006F0E71 /* TTStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTStudent.m; sourceTree = "<group>"; };
+		E058CCE91E60056B006F0E71 /* TTStudents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTStudents.h; sourceTree = "<group>"; };
+		E058CCEA1E60056B006F0E71 /* TTStudents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTStudents.m; sourceTree = "<group>"; };
+		E058CCFA1E6011A1006F0E71 /* TTStudentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTStudentCell.h; sourceTree = "<group>"; };
+		E058CCFB1E6011A1006F0E71 /* TTStudentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTStudentCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +76,16 @@
 		E058CCBF1E60002C006F0E71 /* TTObject */ = {
 			isa = PBXGroup;
 			children = (
+				E058CCE21E6003E4006F0E71 /* Model */,
+				E058CCD71E600055006F0E71 /* TTObject */,
 				E058CCC31E60002C006F0E71 /* AppDelegate.h */,
 				E058CCC41E60002C006F0E71 /* AppDelegate.m */,
-				E058CCC61E60002C006F0E71 /* ViewController.h */,
-				E058CCC71E60002C006F0E71 /* ViewController.m */,
+				E058CCDC1E600245006F0E71 /* TTRootTableController.h */,
+				E058CCDD1E600245006F0E71 /* TTRootTableController.m */,
+				E058CCDF1E600393006F0E71 /* TTStudentController.h */,
+				E058CCE01E600393006F0E71 /* TTStudentController.m */,
+				E058CCFA1E6011A1006F0E71 /* TTStudentCell.h */,
+				E058CCFB1E6011A1006F0E71 /* TTStudentCell.m */,
 				E058CCC91E60002C006F0E71 /* Main.storyboard */,
 				E058CCCC1E60002C006F0E71 /* Assets.xcassets */,
 				E058CCCE1E60002C006F0E71 /* LaunchScreen.storyboard */,
@@ -77,6 +101,28 @@
 				E058CCC11E60002C006F0E71 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E058CCD71E600055006F0E71 /* TTObject */ = {
+			isa = PBXGroup;
+			children = (
+				E058CCD81E60006B006F0E71 /* TTObject.h */,
+				E058CCD91E60006B006F0E71 /* TTObject.m */,
+			);
+			path = TTObject;
+			sourceTree = "<group>";
+		};
+		E058CCE21E6003E4006F0E71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E058CCE31E6003FD006F0E71 /* TTDataSource.h */,
+				E058CCE41E6003FD006F0E71 /* TTDataSource.m */,
+				E058CCE61E600413006F0E71 /* TTStudent.h */,
+				E058CCE71E600414006F0E71 /* TTStudent.m */,
+				E058CCE91E60056B006F0E71 /* TTStudents.h */,
+				E058CCEA1E60056B006F0E71 /* TTStudents.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E058CCC81E60002C006F0E71 /* ViewController.m in Sources */,
+				E058CCE51E6003FD006F0E71 /* TTDataSource.m in Sources */,
+				E058CCE11E600393006F0E71 /* TTStudentController.m in Sources */,
+				E058CCDA1E60006B006F0E71 /* TTObject.m in Sources */,
 				E058CCC51E60002C006F0E71 /* AppDelegate.m in Sources */,
+				E058CCE81E600414006F0E71 /* TTStudent.m in Sources */,
+				E058CCDE1E600245006F0E71 /* TTRootTableController.m in Sources */,
 				E058CCC21E60002C006F0E71 /* main.m in Sources */,
+				E058CCFC1E6011A1006F0E71 /* TTStudentCell.m in Sources */,
+				E058CCEB1E60056B006F0E71 /* TTStudents.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TTObject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TTObject.TTObject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TTObject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TTObject.TTObject;
 				PRODUCT_NAME = "$(TARGET_NAME)";

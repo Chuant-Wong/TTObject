@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TTRootTableController.h
 //  TTObject
 //
 //  Created by Wong on 17/2/24.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TTRootTableController : UITableViewController
 
 @end
-
