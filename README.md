@@ -35,8 +35,8 @@ Model --> JSON </br>
     student.age = 20;
     student.description_p = @"描述";
     NSDictionary *dic = [student toDictionary];
- 
- ### JSON -> Model【模型中有个数组属性，数组里面又要装着其他模型】
+
+### JSON -> Model【模型中有个数组属性，数组里面又要装着其他模型】
 @interface TTStudents : TTObject<br>
 @property (strong, nonatomic) NSString *message;</br>
 @property (strong, nonatomic) TTStudent *student;</br>
