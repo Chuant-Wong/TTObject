@@ -79,7 +79,8 @@ Model --> JSON </br>
     }</br>
     return sourceKey;</br>
 }</br>
- 3.模型嵌套模型</br>
+
+3.模型嵌套模型</br>
  要实现的方法</br>
 - (Class)classWithObjectKey:(NSString *)objectKey {</br>
    if ([objectKey isEqualToString:@"student"] || [objectKey isEqualToString:@"students"]) {</br>
