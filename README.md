@@ -89,6 +89,9 @@ Model --> JSON </br>
    return [TTObject class];</br>
 }</br>
 
-  
+##期待
+
+####如果在使用过程中遇到BUG，希望你能Issues我
+####如果在使用过程中发现功能不够用，希望你能Issues我，我非常想增加更多好用的功能，谢谢
     
     
