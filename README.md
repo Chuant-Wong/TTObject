@@ -57,8 +57,8 @@ Model --> JSON </br>
 // JSON -> TTStudents</br>
       TTStudents *students = [[TTStudents alloc] initWithDictionary:[TTDataSource students]];
 ## 用法要点 <br>
-  1.TTStudent要继承TTObject  </br>
-  2.TTStudent中含有关键字的重命名</br>
+  1.Modal对象要继承TTObject</br>
+  2.Modal对象中含有关键字的重命名</br>
 要实现方法: </br>
 - (NSString *)objectMappingKey:(NSString *)sourceKey {  </br>
     if ([sourceKey isEqualToString:@"id_p"]) {  </br>
