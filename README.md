@@ -60,7 +60,7 @@ Model --> JSON </br>
   1.TTStudent要继承TTObject  </br>
   2.TTStudent中含有关键字的重命名</br>
 要实现方法: </br>
-  - (NSString *)objectMappingKey:(NSString *)sourceKey {  </br>
+- (NSString *)objectMappingKey:(NSString *)sourceKey {  </br>
     if ([sourceKey isEqualToString:@"id_p"]) {  </br>
         return @"id";  </br>
     }  </br>
@@ -68,9 +68,9 @@ Model --> JSON </br>
         return @"description"; </br>
     } </br>
     return sourceKey; </br>
-   }</br>
+ }</br>
     
- - (NSString *)dictionaryMappingKey:(NSString *)sourceKey {</br>
+- (NSString *)dictionaryMappingKey:(NSString *)sourceKey {</br>
     if ([sourceKey isEqualToString:@"id"]) {</br>
         return @"id_p";</br>
     }</br>
@@ -79,13 +79,13 @@ Model --> JSON </br>
     }</br>
     return sourceKey;</br>
 }</br>
-    3.模型嵌套模型</br>
-    要实现的方法</br>
-    - (Class)classWithObjectKey:(NSString *)objectKey {</br>
-    if ([objectKey isEqualToString:@"student"] || [objectKey isEqualToString:@"students"]) {</br>
-        return [TTStudent class];</br>
-    }</br>
-    return [TTObject class];</br>
+ 3.模型嵌套模型</br>
+ 要实现的方法</br>
+- (Class)classWithObjectKey:(NSString *)objectKey {</br>
+   if ([objectKey isEqualToString:@"student"] || [objectKey isEqualToString:@"students"]) {</br>
+       return [TTStudent class];</br>
+   }</br>
+   return [TTObject class];</br>
 }</br>
 
   
